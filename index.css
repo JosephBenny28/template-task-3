@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: rgb(82, 22, 22);
+    color: white;
+}
+
+.carousel-inner {
+    max-height: 660px;
+
+}
+
+.caro-text {
+    top: 30%;
+    color: rgb(254, 250, 244);
+}
+
+.caro-text h1 {
+    color: burlywood;
+    font-size: 50px;
+    text-shadow: 0 0 10px #000000
+}
+
+.caro-text p {
+
+    font-size: 50px;
+    text-shadow: 0 0 10px #000000
+}
+.caro-text span{
+    color: rgb(82, 22, 22);
+    text-shadow: 0 0 20px #fff6f6
+}
+
+.nav-item a {
+
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.nav-item:hover a {
+    background-color: burlywood;
+}
+
+.about-us {
+    min-height: none;
+}
+
+.about-us-con {
+    background-color: rgb(236, 204, 164);
+    text-align: center;
+    padding: 20px;
+    color: rgb(82, 22, 22);
+}
+
+.about-us-con span {
+    color: rgb(167, 47, 47);
+    font-weight: 500;
+
+}
+
+.imgs img {
+
+    width: 70%;
+    height: 450px;
+    object-fit: cover;
+
+}
+
+
+.card-main{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.card-product {
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+.card-product img{
+    height: 200px;
+    padding: 5px;
+}
+.card-product-body{
+    height: 320px;
+}
+
+.card-product:hover{
+    background-color: burlywood;
+    color: rgb(117, 34, 34);
+    font-size: 17px;
+
+}
+
+.testimony-img{
+    position: relative;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+.testimony-body{
+    position: absolute;
+    display: none!important;
+    text-align: center;
+   color: #fff6f6;
+    background-color:rgba(117, 34, 34, 0.541);
+    top: 0;
+    bottom: 0;
+    padding-top: 30%;
+}
+
+
+.testimony-img img{
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+    
+}
+
+.testimony-main:hover .testimony-body{
+    display: block!important;
+}
+
+.contact-us{
+background-image: url(./images//contact-img.jpg);
+height: 500px;
+}
+.contact-us h1{
+    color:rgb(254, 232, 206) ;
+    padding: 20px 0;
+}
+.contact-us-form{
+        width: 80%;
+        margin: 0 auto;
+        height: 400px;
+        backdrop-filter: blur(5px);
+        border-radius: 5px;
+}
+form{
+    width: 70%;
+    margin: 0 auto;
+}
+.forms{
+    padding: 10px;
+}
+
+input{
+    height: 40px;
+    border-radius: 5px; 
+    border: 1px solid burlywood;
+    background: none;
+    width: 90%;
+    padding: 0 10px;
+}
+
+::placeholder{
+    color: rgb(164, 75, 75);
+}
+
+.s-btn{
+    width: 30%;
+    border: 1px solid burlywood;
+    color: rgb(164, 75, 75);
+    height: 40px;
+}
+
+.s-btn:hover{
+    background-color: rgb(105, 66, 66);
+    color: rgb(237, 218, 193);
+}
+
+
+
+.footer{
+    background-color: rgb(226, 210, 188);
+    height: 350px;
+}
+
+.footer-main{
+   
+    height: 250px;
+    width: 40%;
+    margin: 0 auto;
+    border-top: 2px solid rgb(10, 3, 3);
+    border-bottom: 2px solid rgb(30, 7, 7);
+}
+
+i{
+    font-size: 25px;
+    letter-spacing: 20px;
+}
+
+i:hover{
+    color: rgb(164, 75, 75);
+
+}
+@media   (min-width: 772px) {
+
+    .contact-us-form{
+        width: 50%;
+        
+}
+    .form{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .forms{
+        padding: 10px;
+    }
+    
+    input{
+        height: 40px;
+        border-radius: 5px; 
+        border: 1px solid burlywood;
+        background: none;
+        width: 90%;
+        padding: 0 10px;
+    }
+}
