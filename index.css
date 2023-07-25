@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+
+
 ::selection {
     background-color: rgb(82, 22, 22);
     color: white;
 }
+
 
 .carousel-inner {
     max-height: 660px;
@@ -30,7 +33,8 @@
     font-size: 50px;
     text-shadow: 0 0 10px #000000
 }
-.caro-text span{
+
+.caro-text span {
     color: rgb(82, 22, 22);
     text-shadow: 0 0 20px #fff6f6
 }
@@ -44,6 +48,26 @@
 
 .nav-item:hover a {
     background-color: burlywood;
+}
+
+
+.benifit-card {
+    height: 230px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    border: none;
+    margin: 10px;
+    justify-content: center;
+}
+
+.benifit-card-body {
+    background-color: rgb(95, 15, 15);
+    color: white;
+
+}
+.benifit-card-body:hover{
+    color: rgb(84, 1, 1);
+    background-color: rgb(248, 219, 219);
 }
 
 .about-us {
@@ -72,9 +96,9 @@
 }
 
 
-.card-main{
+.card-main {
     padding: 20px;
-    display:flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -82,106 +106,112 @@
     text-align: center;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }
-.card-product img{
+
+.card-product img {
     height: 200px;
     padding: 5px;
 }
-.card-product-body{
+
+.card-product-body {
     height: 320px;
 }
 
-.card-product:hover{
+.card-product:hover {
     background-color: burlywood;
     color: rgb(117, 34, 34);
     font-size: 17px;
 
 }
 
-.testimony-img{
+.testimony-img {
     position: relative;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }
 
-.testimony-body{
+.testimony-body {
     position: absolute;
-    display: none!important;
+    display: none !important;
     text-align: center;
-   color: #fff6f6;
-    background-color:rgba(117, 34, 34, 0.541);
+    color: #fff6f6;
+    background-color: rgba(117, 34, 34, 0.541);
     top: 0;
     bottom: 0;
     padding-top: 30%;
 }
 
 
-.testimony-img img{
+.testimony-img img {
     width: 100%;
     height: 400px;
     object-fit: fill;
-    
+
 }
 
-.testimony-main:hover .testimony-body{
-    display: block!important;
+.testimony-main:hover .testimony-body {
+    display: block !important;
 }
 
-.contact-us{
-background-image: url(./images//contact-img.jpg);
-height: 500px;
+.contact-us {
+    background-image: url(./images//contact-img.jpg);
+    height: 500px;
 }
-.contact-us h1{
-    color:rgb(254, 232, 206) ;
+
+.contact-us h1 {
+    color: rgb(254, 232, 206);
     padding: 20px 0;
 }
-.contact-us-form{
-        width: 80%;
-        margin: 0 auto;
-        height: 400px;
-        backdrop-filter: blur(5px);
-        border-radius: 5px;
+
+.contact-us-form {
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
 }
-form{
+
+form {
     width: 70%;
     margin: 0 auto;
 }
-.forms{
+
+.forms {
     padding: 10px;
 }
 
-input{
+input {
     height: 40px;
-    border-radius: 5px; 
+    border-radius: 5px;
     border: 1px solid burlywood;
     background: none;
     width: 90%;
     padding: 0 10px;
 }
 
-::placeholder{
+::placeholder {
     color: rgb(164, 75, 75);
 }
 
-.s-btn{
+.s-btn {
     width: 30%;
     border: 1px solid burlywood;
     color: rgb(164, 75, 75);
     height: 40px;
 }
 
-.s-btn:hover{
+.s-btn:hover {
     background-color: rgb(105, 66, 66);
     color: rgb(237, 218, 193);
 }
 
 
 
-.footer{
+.footer {
     background-color: rgb(226, 210, 188);
     height: 350px;
 }
 
-.footer-main{
-   
+.footer-main {
+
     height: 250px;
     width: 40%;
     margin: 0 auto;
@@ -189,32 +219,35 @@ input{
     border-bottom: 2px solid rgb(30, 7, 7);
 }
 
-i{
+i {
     font-size: 25px;
     letter-spacing: 20px;
 }
 
-i:hover{
+i:hover {
     color: rgb(164, 75, 75);
 
 }
-@media   (min-width: 772px) {
 
-    .contact-us-form{
+@media (min-width: 772px) {
+
+    .contact-us-form {
         width: 50%;
-        
-}
-    .form{
+
+    }
+
+    .form {
         width: 70%;
         margin: 0 auto;
     }
-    .forms{
+
+    .forms {
         padding: 10px;
     }
-    
-    input{
+
+    input {
         height: 40px;
-        border-radius: 5px; 
+        border-radius: 5px;
         border: 1px solid burlywood;
         background: none;
         width: 90%;
